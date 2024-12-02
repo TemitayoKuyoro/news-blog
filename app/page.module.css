@@ -1,3 +1,20 @@
+.homebox {
+  display: grid;  
+}
+
+.sidebox {
+  display:none;  
+}
+
+/* .newsbox {
+  grid-template-columns: 1fr;
+  height: 80vh;
+} */
+ 
+/* .btn {
+  position: relative;
+} */
+
 .main {
   display: flex;
   flex-direction: column;
@@ -204,6 +221,25 @@
 }
 
 /* Tablet and Smaller Desktop */
+@media screen and ( min-width: 410px ){
+  .newsbox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+  }
+}
+
+
+@media screen and (min-width: 880px) {
+  .homebox {
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .sidebox {
+    display: block
+  }
+};
+
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);

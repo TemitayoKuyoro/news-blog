@@ -1,0 +1,11 @@
+.newsSourceImage {
+    height: 15px;
+    width: 15px;
+    margin-top: 8px;
+}
+
+.newsSource{
+    font-size: 12px;
+    margin-top: 16px;
+    letter-spacing: 0px;
+}

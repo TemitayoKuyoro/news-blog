@@ -1,0 +1,9 @@
+.sideImage {
+    height: 60px;
+    width: 60px;
+    border-radius: 16px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;    
+        /* background-image: none; */
+}

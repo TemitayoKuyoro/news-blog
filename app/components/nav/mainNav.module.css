@@ -1,0 +1,39 @@
+/* .categories {
+  /* display: flex;
+  gap: 50px;
+  width: 100%;
+  padding-left: 70px;
+  /* background-color: blue; 
+  cursor: pointer;
+  border: 1px solid blue;
+} */
+
+.nav button {
+  font-size: 12px;
+  border: none;
+  background-color: white;
+  color: #2d2f31;
+  /* font-family: '__Inter_aaf875', '__Inter_Fallback_aaf875'; */
+  font-family: inherit;
+  font-style: normal;
+  letter-spacing: 0px;
+  /* position: relative; */
+  /* cursor: pointer; */
+  height: 15px;
+}
+
+
+.nav {
+  margin-top: 3rem;
+  scrollbar-width: none;
+  /* background-color: blue; */
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 50px;
+  padding-left: 70px;
+  /* background-color: blue; */
+  cursor: pointer;
+  /* position: relative;
+  left: 70px;   */
+  height: 20px;
+}

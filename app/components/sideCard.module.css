@@ -1,0 +1,6 @@
+.sidecard {
+   height: auto;
+   display: flex;
+   gap: 6px; 
+   padding: 2px 8px;
+}

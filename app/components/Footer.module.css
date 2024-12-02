@@ -1,0 +1,17 @@
+.footer {
+    background-color: #BA2424;
+    font-size: 12px;
+    padding: 8px 70px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    display: grid;
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+    border-bottom: 0.5px solid #2d2f31;
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+}
